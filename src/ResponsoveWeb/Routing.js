@@ -8,6 +8,7 @@ import About from "./About";
 import NotFound from "./NotFound";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+import Footer from "./Footer";
 
 
 
@@ -23,6 +24,7 @@ const Routing = () => {
             <Route exact path="/Contact" element={<Contact />}></Route>
             <Route exact path="*" element={<NotFound />}></Route>
         </Routes>
+        <Footer />
         </>
     )
 }
